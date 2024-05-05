@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HOME</title>
+</head>
+<body>
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buy House Ecommerce</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="sentence.css">
+</head>
+<body>
+    <header>
+        
+      <a href="/home">  <div class="logo"><img src="th.jpeg" alt=""></div> </a>
+        <nav>
+            <ul>
+                <li><a href="/home">Home</a></li>
+                <li><a href="/AllList">Buy Houses</a></li>
+                <li><a href="/OwnerForm">Sell Houses</a></li>
+                <li><a href="/About">About Us</a></li>
+                <li><a href="/Contact">Contact</a></li>
+            </ul>
+        </nav>
+        <button class="cta-button">Get Started</button>
+    </header>
+
+    <h1 id="sentence" th:text="${name}" style="color:  #fd6702e7;"></h1>
+    <audio  id="sound">
+        <source src="dataentered.mp3" type="audio/mpeg" >
+        
+      </audio>
+    
+    <section class="hero">
+        <h1>Find Your Perfect Home Today</h1>
+        <p>Your dream house awaits</p>
+        <a href="/AllList">
+        <button class="hero-button">Find Houses</button>
+        </a>
+    </section>
+
+    <section class="hero">
+        <h1>Sell or Rent Your Home Today</h1>
+        <p>Your dream house awaits</p>
+        <a href="/OwnerForm">
+        <button class="hero-button">Find Houses</button>
+        </a>
+    </section>
+
+
+      
+    
+        <!-- <p th:text="${name}"></p> -->
+    
+    <!-- Other sections like Features, Search Bar, Featured Listings, Testimonials, Why Choose Us, etc. -->
+    
+    <footer>
+        <div class="footer-links">
+            <a href="#">FAQs</a>
+            <a href="#">Terms and Conditions</a>
+            <a href="#">Privacy Policy</a>
+        </div>
+        <div class="social-links">
+            <!-- <a href="#"><img src="fb.png" alt="Facebook"></a>
+            <a href="#"><img src="twitter-icon.png" alt="Twitter"></a>
+            <a href="#"><img src="instagram-icon.png" alt="Instagram"></a> -->
+        </div>
+        <p>&copy; 2024 STAY. All rights reserved.</p>
+    </footer>
+
+    <script src="sentence.js"></script>
+</body>
+</html>
+
+</body>
+</html>
